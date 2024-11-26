@@ -1,0 +1,65 @@
+{
+    "addr": "0.0.0.0:1005",
+    "use_tls": false,
+    "cert_file": "",
+    "key_file": "",
+    "behind_proxy": false,
+    "title": "ReachableCEO Laptop Dashboard",
+    "theme": {
+        "background": "#FFFFFF",
+        "foreground": "#000000"
+    },
+    "groups": [
+        {
+            "name": "internal",
+            "subnet": "192.168.1.1/24"
+        },
+        {
+            "name": "vpn",
+            "subnet": "10.8.1.1/24"
+        }
+    ],
+    "services": [
+        {
+            "name": "WAKAAPI",
+            "category": "",
+            "url": "http://localhost:1001",
+        },
+        {
+            "name": "Metrics",
+            "category": "",
+            "url": "http://localhost:1002",
+        },
+        {
+            "name": "Workout Tracking",
+            "category": "",
+            "url": "http://localhost:1003",
+        },
+        {
+            "name": "Tube Archivist",
+            "category": "",
+            "url": "http://localhost:1004",
+        },
+        {
+            "name": "VsCode Server",
+            "category": "",
+            "url": "http://localhost:1006",
+        }
+    ],
+    "notes": [
+        {
+            "name": "Simple note",
+            "text": "This is a simple note for vpn users",
+            "groups": [
+                "vpn"
+            ]
+        },
+        {
+            "name": "Another note",
+            "text": "Another note for internal users only",
+            "groups": [
+                "internal"
+            ]
+        }
+    ]
+}

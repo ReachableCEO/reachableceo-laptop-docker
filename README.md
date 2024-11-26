@@ -13,6 +13,7 @@ This repo is for containers running on Charles (@ReachableCEO) laptop
 | wger           | 1003 |
 | tube-archivist | 1004 |
 | dashboard      | 1005 |
+| vscode-server | 1006 |
 
 ## Secrets
 
