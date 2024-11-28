@@ -52,7 +52,7 @@ services:
     container_name: tsys-reactiveresume-app
     restart: unless-stopped
     ports:
-      - "1007:3000"
+      - "2007:3000"
     depends_on:
       - reactiveresume-postgres
       - reactiveresume-minio

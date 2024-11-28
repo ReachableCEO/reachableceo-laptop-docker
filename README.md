@@ -8,13 +8,13 @@ This repo is for containers running on Charles (@ReachableCEO) laptop
 
 | application    | port |
 | -------------- | ---- |
-| wakaapi        | 1001 |
-| metrics        | 1002 |
-| wger           | 1003 |
-| tube-archivist | 1004 |
-| dashboard      | 1005 |
-| vscode-server | 1006 |
-| reactive-resume | 1007 |
+| wakaapi        | 2001 |
+| metrics        | 2002 |
+| wger           | 2003 |
+| tube-archivist | 2004 |
+| dashboard      | 2005 |
+| vscode-server | 2006 |
+| reactive-resume | 2007 |
 
 ## Secrets
 

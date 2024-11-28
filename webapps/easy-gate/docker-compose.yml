@@ -1,10 +1,9 @@
 services:
   easy-gate:
     image: r7wx/easy-gate:latest
-    build: .
     container_name: easy-gate
     restart: always
     ports:
-      - 1005:8080
+      - 2005:8080
     volumes:
       - ./easy-gate.json:/etc/easy-gate/easy-gate.json
