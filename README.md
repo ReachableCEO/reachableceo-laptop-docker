@@ -13,7 +13,7 @@ This repo is for containers running on Charles (@ReachableCEO) laptop
 | wger           | 2003 |
 | tube-archivist | 2004 |
 | dashboard      | 2005 |
-| vscode-server | 2006 |
+| vscode-server  | 2006 |
 | reactive-resume | 2007 |
 
 ## Secrets
