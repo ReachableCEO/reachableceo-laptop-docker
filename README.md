@@ -15,6 +15,7 @@ This repo is for containers running on Charles (@ReachableCEO) laptop
 | tube-archivist | 2004 |
 | vscode-server  | 2006 |
 | reactive-resume | 2007 |
+| habitica | 2008 |
 
 ## Secrets
 
