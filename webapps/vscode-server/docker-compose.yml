@@ -1,9 +1,0 @@
-services:
-  tsys-vscode-server:
-    image: gitpod/openvscode-server
-    container_name: tsys-vscode-server
-    restart: always
-    ports:
-      - 2006:8080
-    volumes:
-      - tsys-vscode-server:/home/workspace:cached

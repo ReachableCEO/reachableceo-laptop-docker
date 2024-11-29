@@ -1,7 +1,7 @@
 services:
   easy-gate:
     image: r7wx/easy-gate:latest
-    container_name: easy-gate
+    container_name: reachableceo-easy-gate
     restart: always
     ports:
       - 2005:8080

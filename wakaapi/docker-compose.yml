@@ -2,7 +2,7 @@ version: '3.8'
 services:
   wakaapi-tsys:
     image: ghcr.io/muety/wakapi:latest
-    container_name: wakaapi-tsys
+    container_name: reachableceo-wakaapi
     environment:
       - WAKAPI_PASSWORD_SALT=1234
     volumes:

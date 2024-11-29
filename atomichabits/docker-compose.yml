@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  tsys-atomichabits:
+    image: ghcr.io/majorpeter/atomic-tracker:latest
+    container_name: reachableceo-atomichabits
+    ports:
+      - "2008:8080"
+    volumes:
+      - tsys-atomichabits:/config
+    restart: no
+
+volumes:
+  tsys-atomichabits:

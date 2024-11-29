@@ -1,8 +1,7 @@
-version: '3.8'
 services:
   metrics:
     image: ghcr.io/lowlighter/metrics:latest
-    container_name: metrics
+    container_name: reachableceo-metrics
     entrypoint: ""
     command: ["npm", "start"]
     ports:

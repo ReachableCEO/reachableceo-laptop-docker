@@ -8,14 +8,14 @@ This repo is for containers running on Charles (@ReachableCEO) laptop
 
 | application    | port |
 | -------------- | ---- |
-| dashboard      | 2005 |
-| wakaapi        | 2001 |
-| metrics        | 2002 |
-| wger           | 2003 |
-| tube-archivist | 2004 |
-| vscode-server  | 2006 |
-| reactive-resume | 2007 |
-| habitica | 2008 |
+| (timetracking) wakaapi        | 2001 |
+| (analytics) metrics        | 2002 |
+| (workout tracking) wger           | 2003 |
+| (youtube archiving) tube-archivist | 2004 |
+| (dashboard to all my local hosted apps) easy-gate     | 2005 |
+| (the only editor) vscode-server  | 2006 |
+| (resume hacking) reactive-resume | 2007 |
+| (habit tracking) atomichabits| 2008 |
 
 ## Secrets
 
