@@ -8,16 +8,15 @@
 # Select an existing docker image tag
 VERSION=latest
 # Path to configured `settings.json`
-SETTINGS=/path/to/settings.json
+SETTINGS=./settings.json
 # Port used internally (use the same one than in `settings.json`)
 SERVICE_PORT=3000
 # Port to publish
 PUBLISHED_PORT=2002
 
 docker run \
-    -d \
     --rm \
-    --name metrics \
+    --name reachableceo-metrics \
     --entrypoint="" \
     -p=127.0.0.1:$PUBLISHED_PORT:$SERVICE_PORT \
     --volume=$SETTINGS:/metrics/settings.json \

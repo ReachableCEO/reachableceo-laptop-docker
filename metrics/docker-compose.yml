@@ -5,7 +5,7 @@ services:
     entrypoint: ""
     command: ["npm", "start"]
     ports:
-      - "127.0.0.1:2002:3000"
+      - 2002:3000
     volumes:
-      - /path/to/settings.json:/metrics/settings.json
+      - ./settings.json:/metrics/settings.json
     restart: no

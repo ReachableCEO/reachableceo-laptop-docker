@@ -16,6 +16,7 @@ This repo is for containers running on Charles (@ReachableCEO) laptop
 | (the only editor) vscode-server  | 2006 |
 | (resume hacking) reactive-resume | 2007 |
 | (habit tracking) atomichabits| 2008 |
+| (workout tracking) wael           | 2009 |
 
 ## Secrets
 
