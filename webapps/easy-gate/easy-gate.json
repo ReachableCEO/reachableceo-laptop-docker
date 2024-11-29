@@ -23,27 +23,27 @@
         {
             "name": "WAKAAPI",
             "category": "",
-            "url": "http://localhost:2001",
+            "url": "http://tsys1:2001",
         },
         {
             "name": "Metrics",
             "category": "",
-            "url": "http://localhost:2002",
+            "url": "http://tsys1:2002",
         },
         {
             "name": "Workout Tracking",
             "category": "",
-            "url": "http://localhost:2003",
+            "url": "http://tsys1:2003",
         },
         {
             "name": "Tube Archivist",
             "category": "",
-            "url": "http://localhost:2004",
+            "url": "http://tsys1:2004",
         },
         {
             "name": "VsCode Server",
             "category": "",
-            "url": "http://localhost:2006",
+            "url": "http://tsys1:2006",
         }
     ],
     "notes": [
