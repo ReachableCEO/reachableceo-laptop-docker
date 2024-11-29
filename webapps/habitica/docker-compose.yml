@@ -6,9 +6,9 @@ services:
     networks:
       - habitica
     environment:
-      - BASE_URL=http://server:3000
+      - BASE_URL=http://tsys1:2008
     ports:
-        - "8080:8080"
+        - "2008:8080"
     command: ["npm", "run", "client:dev"]
     depends_on:
       - server
@@ -16,7 +16,7 @@ services:
   server:
     build: .
     ports:
-      - "3000:3000"
+      - "3008:3000"
     networks:
       - habitica
     environment:

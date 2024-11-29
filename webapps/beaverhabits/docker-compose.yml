@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  beaverhabits:
+    image: daya0576/beaverhabits:latest
+    container_name: beaverhabits
+    environment:
+      - FIRST_DAY_OF_WEEK=0
+      - HABITS_STORAGE=USER_DISK
+      - MAX_USER_COUNT=1
+    volumes:
+      - /path/to/host/directory:/app/.user/
+    ports:
+      - "8080:8080"
+    restart: unless-stopped

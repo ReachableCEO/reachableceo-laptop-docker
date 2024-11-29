@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  metrics:
+    image: ghcr.io/lowlighter/metrics:latest
+    container_name: metrics
+    entrypoint: ""
+    command: ["npm", "start"]
+    ports:
+      - "127.0.0.1:2002:3000"
+    volumes:
+      - /path/to/settings.json:/metrics/settings.json
+    restart: no
