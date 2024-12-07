@@ -14,6 +14,7 @@ This repo is for containers running on Charles (@ReachableCEO) laptop
 | (youtube archiving) tube-archivist                | 2004 |
 | (the only editor) vscode-server                   | 2006 |
 | (timetracking) wakaapi                            | 2001 |
+| apple heatlh export to influx/grafana             | 2012 |
 
 
 | (analytics) metrics                               | 2002 |

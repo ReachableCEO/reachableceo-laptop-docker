@@ -2,7 +2,7 @@
   "//": "Example of configuration for metrics web instance",
   "//": "====================================================================",
 
-  "token": "A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",          "//": "GitHub Personal Token (required)",
+  "token": "GITHUB API TOKEN",          "//": "GitHub Personal Token (required)",
   "modes": ["embed", "insights"],       "//": "Web instance enabled modes",
   "restricted": [],                     "//": "Authorized users (empty to disable)",
   "maxusers": 0,                        "//": "Maximum users, (0 to disable)",
@@ -17,8 +17,8 @@
   "padding": ["0", "8 + 11%"],          "//": "Image padding (default)",
   "outputs": ["svg", "png", "json"],    "//": "Image output formats (empty to enable all)",
   "hosted": {
-    "by": "ReachableCEO Dev Workstation",                           "//": "Web instance host (displayed in footer)",
-    "link": "https://www.reachableceo.com",                         "//": "Web instance host link (displayed in footer)"
+    "by": "",                           "//": "Web instance host (displayed in footer)",
+    "link": "",                         "//": "Web instance host link (displayed in footer)"
   },
   "oauth":{
     "id": null,                         "//": "GitHub OAUTH client id",
@@ -68,80 +68,80 @@
       "enabled": false,                 "//": "Enable isocalendar plugin"
     },
     "languages":{
-      "enabled": true,                 "//": "Enable languages plugin"
+      "enabled": false,                 "//": "Enable languages plugin"
     },
     "stargazers":{
       "worldmap.token": null,           "//": "Stargazers worldmap token",
       "enabled": false,                 "//": "Enable stargazers plugin"
     },
     "lines":{
-      "enabled": true,                 "//": "Enable lines plugin"
+      "enabled": false,                 "//": "Enable lines plugin"
     },
     "topics":{
-      "enabled": true,                 "//": "Enable topics plugin"
+      "enabled": false,                 "//": "Enable topics plugin"
     },
     "stars":{
-      "enabled": true,                 "//": "Enable stars plugin"
+      "enabled": false,                 "//": "Enable stars plugin"
     },
     "licenses":{
-      "enabled": true,                 "//": "Enable licenses plugin"
+      "enabled": false,                 "//": "Enable licenses plugin"
     },
     "habits":{
-      "enabled": true,                 "//": "Enable habits plugin"
+      "enabled": false,                 "//": "Enable habits plugin"
     },
     "contributors":{
-      "enabled": true,                 "//": "Enable contributors plugin"
+      "enabled": false,                 "//": "Enable contributors plugin"
     },
     "followup":{
-      "enabled": true,                 "//": "Enable followup plugin"
+      "enabled": false,                 "//": "Enable followup plugin"
     },
     "reactions":{
-      "enabled": true,                 "//": "Enable reactions plugin"
+      "enabled": false,                 "//": "Enable reactions plugin"
     },
     "people":{
-      "enabled": true,                 "//": "Enable people plugin"
+      "enabled": false,                 "//": "Enable people plugin"
     },
     "sponsorships":{
-      "enabled": true,                 "//": "Enable sponsorships plugin"
+      "enabled": false,                 "//": "Enable sponsorships plugin"
     },
     "sponsors":{
-      "enabled": true,                 "//": "Enable sponsors plugin"
+      "enabled": false,                 "//": "Enable sponsors plugin"
     },
     "repositories":{
-      "enabled": true,                 "//": "Enable repositories plugin"
+      "enabled": false,                 "//": "Enable repositories plugin"
     },
     "discussions":{
-      "enabled": true,                 "//": "Enable discussions plugin"
+      "enabled": false,                 "//": "Enable discussions plugin"
     },
     "starlists":{
-      "enabled": true,                 "//": "Enable starlists plugin"
+      "enabled": false,                 "//": "Enable starlists plugin"
     },
     "calendar":{
-      "enabled": true,                 "//": "Enable calendar plugin"
+      "enabled": false,                 "//": "Enable calendar plugin"
     },
     "achievements":{
-      "enabled": true,                 "//": "Enable achievements plugin"
+      "enabled": false,                 "//": "Enable achievements plugin"
     },
     "notable":{
-      "enabled": true,                 "//": "Enable notable plugin"
+      "enabled": false,                 "//": "Enable notable plugin"
     },
     "activity":{
-      "enabled": true,                 "//": "Enable activity plugin"
+      "enabled": false,                 "//": "Enable activity plugin"
     },
     "traffic":{
-      "enabled": true,                 "//": "Enable traffic plugin"
+      "enabled": false,                 "//": "Enable traffic plugin"
     },
     "code":{
-      "enabled": true,                 "//": "Enable code plugin"
+      "enabled": false,                 "//": "Enable code plugin"
     },
     "gists":{
-      "enabled": true,                 "//": "Enable gists plugin"
+      "enabled": false,                 "//": "Enable gists plugin"
     },
     "projects":{
-      "enabled": true,                 "//": "Enable projects plugin"
+      "enabled": false,                 "//": "Enable projects plugin"
     },
     "introduction":{
-      "enabled": true,                 "//": "Enable introduction plugin"
+      "enabled": false,                 "//": "Enable introduction plugin"
     },
     "skyline":{
       "enabled": false,                 "//": "Enable skyline plugin"
@@ -174,12 +174,8 @@
       "enabled": false,                 "//": "Enable rss plugin"
     },
     "wakatime":{
-      "token": "664dd8b2-b73a-4f31-82ef-96ed424814d2",
-      "enabled": true,                 "//": "Enable wakatime plugin"
-      "url": "http://localhost:2001/api",
-      "days": 7,
-      "sections": "time, projects, projects-graphs",
-      "limit": 4,
+      "token": "WakaTime API token",
+      "enabled": false,                 "//": "Enable wakatime plugin"
     },
     "leetcode":{
       "enabled": false,                 "//": "Enable leetcode plugin"

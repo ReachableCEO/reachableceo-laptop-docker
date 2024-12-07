@@ -1,0 +1,10 @@
+services:
+  reachableceo-metrics:
+    image: ghcr.io/lowlighter/metrics:latest
+    container_name: reachableceo-metrics
+    entrypoint: [""]
+    command: ["npm", "start"]
+    ports:
+      - "0.0.0.0:2002:3000"
+    volumes:
+      - "./settings.json:/metrics/settings.json"
