@@ -24,7 +24,7 @@ services:
   # Storage (for image uploads)
   reactiveresume-minio:
     image: minio/minio
-    container_name: tsys-reactivereusme-minio
+    container_name: tsys-reactiveresume-minio
     restart: unless-stopped
     command: server /data
     ports:
