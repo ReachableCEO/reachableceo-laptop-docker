@@ -1,0 +1,2 @@
+[2024-12-07 14:46:20,490] DEBUG from spotifyAPI line 561 - Parser thread started
+[2024-12-07 14:46:20,835] ERROR from stravaApi line 23 - 'NoneType' object has no attribute 'tokens'
