@@ -4,9 +4,10 @@ services:
     restart: always
     container_name: cleanslate-database
     ports:
-      - '35000:5432'
+      - '20101:5432'
     environment:
-      POSTGRES_PASSWORD: 1234
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+
     volumes:
       - cleanslate-database:/var/lib/postgresql/data
     healthcheck:
@@ -20,11 +21,11 @@ services:
     restart: always
     container_name: cleanslate-graphql-server
     ports:
-      - '35001:8080'
+      - '20102:8080'
     environment:
       HASURA_GRAPHQL_ADMIN_SECRET: ${HASURA_GRAPHQL_ADMIN_SECRET}
       HASURA_GRAPHQL_CORS_DOMAIN: https://${NEXT_PUBLIC_HASURA_DOMAIN}
-      HASURA_GRAPHQL_DATABASE_URL: postgres://postgres:${POSTGRES_PASSWORD}@cleanslate-database:35000/postgres
+      HASURA_GRAPHQL_DATABASE_URL: postgres://postgres:${POSTGRES_PASSWORD}@cleanslate-database:5432/postgres
       HASURA_GRAPHQL_DEV_MODE: false
       HASURA_GRAPHQL_ENABLE_CONSOLE: true
       HASURA_GRAPHQL_ENABLED_LOG_TYPES: startup, http-log, webhook-log, websocket-log, query-log
@@ -45,9 +46,9 @@ services:
       dockerfile: Dockerfile.server
     pull_policy: ${PULL_POLICY:-always}
     restart: always
-    container_name: authentication-server
+    container_name: cleanslate-authentication-server
     ports:
-      - '35002:3001'
+      - '20103:3001'
     environment:
       HASURA_GRAPHQL_ADMIN_SECRET: ${HASURA_GRAPHQL_ADMIN_SECRET}
       JWT_SIGNING_SECRET: ${JWT_SIGNING_SECRET}
@@ -75,7 +76,7 @@ services:
         - NEXT_PUBLIC_VERSION=${NEXT_PUBLIC_VERSION}
     pull_policy: ${PULL_POLICY:-always}
     restart: always
-    container_name: client
+    container_name: cleanslate-client
     ports:
       - '2010:3000'
     depends_on:
