@@ -2,10 +2,10 @@ version: '3'
 services:
   fitly:
     image: ethanopp/fitly:latest
-    container_name: fitly
+    container_name: reachableceo-fitly
     restart: always
     ports:
-      - "3000:80"
+      - "2011:80"
     environment:
       - MODULE_NAME=src.fitly.app
       - VARIABLE_NAME=server
