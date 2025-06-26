@@ -41,11 +41,6 @@
             "url": "http://CharlesDevServer.knel.net:2004",
         },
         {
-            "name": "VsCode Server",
-            "category": "",
-            "url": "http://CharlesDevServer.knel.net:2006",
-        },
-        {
             "name": "Reactive Resume",
             "category": "",
             "url": "http://CharlesDevServer.knel.net:2007",
