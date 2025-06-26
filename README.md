@@ -2,9 +2,9 @@
 
 ## Introduction
 
-This repo is for containers running on Charles (@ReachableCEO) laptop
+This repo is for containers running on Charles (@ReachableCEO) workstation (CharlesDevServer)
 
-## Portma|
+## Portmap
 
 | application                                       | port |
 |---------------------------------------------------|------|
@@ -12,7 +12,6 @@ This repo is for containers running on Charles (@ReachableCEO) laptop
 | (dashboard to all my local hosted apps) easy-gate | 2005 |
 | (resume hacking) reactive-resume                  | 2007 |
 | (youtube archiving) tube-archivist                | 2004 |
-| (the only editor) vscode-server                   | 2006 |
 | (timetracking) wakaapi                            | 2001 |
 | apple heatlh export to influx/grafana             | 2012 |
 
