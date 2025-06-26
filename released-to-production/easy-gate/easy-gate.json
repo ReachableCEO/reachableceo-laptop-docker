@@ -23,47 +23,47 @@
         {
             "name": "WAKAAPI Dashboard",
             "category": "",
-            "url": "http://CharlesServer.knel.net:2001",
+            "url": "http://CharlesDevServer.knel.net:2001",
         },
         {
             "name": "Metrics Dashboard",
             "category": "",
-            "url": "http://CharlesServer.knel.net:2002",
+            "url": "http://CharlesDevServer.knel.net:2002",
         },
         {
             "name": "wger-Workout Tracking",
             "category": "",
-            "url": "http://CharlesServer.knel.net:2003",
+            "url": "http://CharlesDevServer.knel.net:2003",
         },
         {
             "name": "Tube Archivist",
             "category": "",
-            "url": "http://CharlesServer.knel.net:2004",
+            "url": "http://CharlesDevServer.knel.net:2004",
         },
         {
             "name": "VsCode Server",
             "category": "",
-            "url": "http://CharlesServer.knel.net:2006",
+            "url": "http://CharlesDevServer.knel.net:2006",
         },
         {
             "name": "Reactive Resume",
             "category": "",
-            "url": "http://CharlesServer.knel.net:2007",
+            "url": "http://CharlesDevServer.knel.net:2007",
         },
         {
             "name": "Atomic Habits",
             "category": "",
-            "url": "http://CharlesServer.knel.net:2008"
+            "url": "http://CharlesDevServer.knel.net:2008"
         },
         {
             "name": "Cleanslate",
             "category": "",
-            "url": "http://CharlesServer.knel.net:2010"
+            "url": "http://CharlesDevServer.knel.net:2010"
         },
         {
             "name": "Influxdb",
             "category": "",
-            "url": "http://CharlesServer.knel.net:4000",
+            "url": "http://CharlesDevServer.knel.net:4000",
         },
     ],
     "notes": [
