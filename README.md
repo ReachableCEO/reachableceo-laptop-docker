@@ -4,26 +4,25 @@
 
 This repo is for containers running on Charles (@ReachableCEO) workstation (CharlesDevServer)
 
+It is getting dialed in over time, this is the current snapshot as of 7/2/2025.
+
 ## Portmap
 
 | application                                       | port |
 |---------------------------------------------------|------|
-| (habit tracking) atomichabits                     | 2008 |
-| (dashboard to all my local hosted apps) easy-gate | 2005 |
-| (resume hacking) reactive-resume                  | 2007 |
-| (youtube archiving) tube-archivist                | 2004 |
 | (timetracking) wakaapi                            | 2001 |
-| apple heatlh export to influx/grafana             | 2012 |
-
-
 | (analytics) metrics                               | 2002 |
 | (workout tracking) wger                           | 2003 |
-| (workout tracking) wael                           | 2009 |
+| (youtube archiving) tube-archivist                | 2004 |
+| (dashboard to all my local hosted apps) easy-gate | 2005 |
+| (workout tracking) wael                           | 2006 |
+| (resume hacking) reactive-resume                  | 2007 |
+| (habit tracking) atomichabits                     | 2008 |
 | (food tracking) cleanslate                        | 2010 |
 | (workout tracking) fitly                          | 2011 |
+| apple heatlh export to influx/grafana             | 2012 |
+
 
 ## Secrets
 
 Handled via (the in development) TSYS Secrets Manager : <https://git.knownelement.com/TechnicalOperations/TSYSSecretsManager>
-
-test
