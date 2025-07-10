@@ -21,6 +21,7 @@ It is getting dialed in over time, this is the current snapshot as of 7/2/2025.
 | (food tracking) cleanslate                        | 2010 |
 | (workout tracking) fitly                          | 2011 |
 | apple heatlh export to influx/grafana             | 2012 |
+| kiwix                                             | 2013 |
 
 
 ## Secrets
