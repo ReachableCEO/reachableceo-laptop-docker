@@ -46,11 +46,6 @@
             "url": "http://CharlesDevServer.knel.net:2005"
         },
         {
-            "name": "Cleanslate",
-            "category": "",
-            "url": "http://CharlesDevServer.knel.net:2006"
-        },
-        {
             "name": "Apple Health Exporter",
             "category": "",
             "url": "http://CharlesDevServer.knel.net:2007",
