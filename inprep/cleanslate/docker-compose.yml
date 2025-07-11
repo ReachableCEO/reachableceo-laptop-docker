@@ -78,7 +78,7 @@ services:
     restart: always
     container_name: cleanslate-client
     ports:
-      - '2010:3000'
+      - '2006:3000'
     depends_on:
       - cleanslate-database
       - cleanslate-graphql-server

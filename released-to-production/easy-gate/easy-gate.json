@@ -38,22 +38,22 @@
         {
             "name": "Reactive Resume",
             "category": "",
-            "url": "http://CharlesDevServer.knel.net:2007",
+            "url": "http://CharlesDevServer.knel.net:2003",
         },
         {
             "name": "Atomic Habits",
             "category": "",
-            "url": "http://CharlesDevServer.knel.net:2008"
+            "url": "http://CharlesDevServer.knel.net:2005"
         },
         {
             "name": "Cleanslate",
             "category": "",
-            "url": "http://CharlesDevServer.knel.net:2010"
+            "url": "http://CharlesDevServer.knel.net:2006"
         },
         {
             "name": "Apple Health Exporter",
             "category": "",
-            "url": "http://CharlesDevServer.knel.net:4000",
+            "url": "http://CharlesDevServer.knel.net:2007",
         },
     ],
     "notes": [
