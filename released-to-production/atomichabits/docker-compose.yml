@@ -7,7 +7,7 @@ services:
       - "2008:8080"
     volumes:
       - tsys-atomichabits:/config
-    restart: no
+    restart: always
 
 volumes:
   tsys-atomichabits:
