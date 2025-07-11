@@ -6,40 +6,41 @@ services:
     ports:
       - 2004:8000
     volumes:
-      - tubearchivist-media:/youtube
-      - tubearchivist-cache:/cache
+      - media:/youtube
+      - cache:/cache
     environment:
-      - ES_URL=http://tubearchivist-es:9200     # needs protocol e.g. http and port
-      - REDIS_HOST=tubearchivist-redis          # don't add protocol
+      - ES_URL=http://archivist-es:9200     # needs protocol e.g. http and port
+      - TA_PORT=2004
+      - REDIS_CON=redis://archivist-redis:6379
       - HOST_UID=1000
       - HOST_GID=1000
-      - TA_HOST=charlesdevserver.knel.net         # set your host name
+      - TA_HOST=http://charlesdevserver.knel.net:2004  # set your host name with protocol and port
       - TA_USERNAME=tubearchivist           # your initial TA credentials
       - TA_PASSWORD=verysecret              # your initial TA credentials
       - ELASTIC_PASSWORD=verysecret         # set password for Elasticsearch
       - TZ=America/Chicago                 # set your time zone
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:2004/health"]
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
       interval: 2m
       timeout: 10s
       retries: 3
       start_period: 30s
     depends_on:
-      - tubearchivist-es
-      - tubearchivist-redis
-  tubearchivist-redis:
-    image: redis/redis-stack-server
-    container_name: tubearchivist-redis
+      - archivist-es
+      - archivist-redis
+  archivist-redis:
+    image: redis
+    container_name: archivist-redis
     restart: unless-stopped
     expose:
       - "6379"
     volumes:
-      - tubearchivist-redis:/data
+      - redis:/data
     depends_on:
-      - tubearchivist-es
-  tubearchivist-es:
-    image: bbilly1/tubearchivist-es         # only for amd64, or use official es 8.14.3
-    container_name: tubearchivist-es
+      - archivist-es
+  archivist-es:
+    image: bbilly1/tubearchivist-es         # only for amd64, or use official es 8.18.0
+    container_name: archivist-es
     restart: unless-stopped
     environment:
       - "ELASTIC_PASSWORD=verysecret"       # matching Elasticsearch password
@@ -52,12 +53,12 @@ services:
         soft: -1
         hard: -1
     volumes:
-      - tubearchivist-es:/usr/share/elasticsearch/data    # check for permission error when using bind mount, see readme
+      - es:/usr/share/elasticsearch/data    # check for permission error when using bind mount, see readme
     expose:
       - "9200"
 
 volumes:
-  tubearchivist-media:
-  tubearchivist-cache:
-  tubearchivist-redis:
-  tubearchivist-es:
+  media:
+  cache:
+  redis:
+  es:
