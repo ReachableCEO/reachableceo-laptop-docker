@@ -20,7 +20,7 @@ logger.addHandler(handler)
 app = Flask(__name__)
 app.debug = True
 
-client = InfluxDBClient(host='localhost', port=28086)
+client = InfluxDBClient(host='localhost', port=20007)
 client.create_database('db')
 client.switch_database('db')
 
