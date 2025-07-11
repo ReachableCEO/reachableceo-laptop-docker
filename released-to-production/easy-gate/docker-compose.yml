@@ -4,6 +4,6 @@ services:
     container_name: reachableceo-easy-gate
     restart: always
     ports:
-      - 2006:8080
+      - 2005:8080
     volumes:
       - ./easy-gate.json:/etc/easy-gate/easy-gate.json

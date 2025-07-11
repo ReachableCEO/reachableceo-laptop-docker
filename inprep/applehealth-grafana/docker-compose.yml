@@ -2,7 +2,7 @@ services:
   web:
      build: .
      ports: 
-      - 2007:2007
+      - 2006:2007
      depends_on: 
       - influxdbV1
      volumes:

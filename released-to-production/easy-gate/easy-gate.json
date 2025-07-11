@@ -31,6 +31,11 @@
             "url": "http://CharlesDevServer.knel.net:2002",
         },
         {
+            "name": "Atuin",
+            "category": "",
+            "url": "http://CharlesDevServer.knel.net:2003",
+        },
+        {
             "name": "Tube Archivist",
             "category": "",
             "url": "http://CharlesDevServer.knel.net:2004",
@@ -38,18 +43,23 @@
         {
             "name": "Reactive Resume",
             "category": "",
-            "url": "http://CharlesDevServer.knel.net:2003",
+            "url": "http://CharlesDevServer.knel.net:2007",
         },
         {
             "name": "Atomic Habits",
             "category": "",
-            "url": "http://CharlesDevServer.knel.net:2005"
+            "url": "http://CharlesDevServer.knel.net:2008"
+        },
+        {
+            "name": "Kiwix",
+            "category": "",
+            "url": "http://CharlesDevServer.knel.net:2009",
         },
         {
             "name": "Apple Health Exporter",
             "category": "",
-            "url": "http://CharlesDevServer.knel.net:2007",
-        },
+            "url": "http://CharlesDevServer.knel.net:2010",
+        }
     ],
     "notes": [
         {

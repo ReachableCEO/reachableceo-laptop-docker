@@ -3,7 +3,7 @@ services:
     image: ghcr.io/majorpeter/atomic-tracker:latest
     container_name: reachableceo-atomichabits
     ports:
-      - "2005:8080"
+      - "2008:8080"
     volumes:
       - tsys-atomichabits:/config
     restart: always
